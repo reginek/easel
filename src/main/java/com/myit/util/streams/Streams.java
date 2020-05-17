@@ -3,6 +3,9 @@ package com.myit.util.streams;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * This class is devoted to incorporate functionality working with streams.
+ */
 public class Streams {
 
     List<String> exclude(List<String> sourceStrings, List<String> excludingStrings) {
