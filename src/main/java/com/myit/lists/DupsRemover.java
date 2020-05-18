@@ -13,6 +13,11 @@ public class DupsRemover<T> {
         return result;
     }
 
+    /**
+     * Removes duplicates from the linked list not using a buffer.
+     * @param origin the given linked list
+     * @return the resulting linked list without duplicates
+     */
     public LinkedList<T> execute_v2(LinkedList<T> origin) {
         /**
          * 1. iterate through each element of the linked list
