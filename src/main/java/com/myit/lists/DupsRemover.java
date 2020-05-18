@@ -7,6 +7,11 @@ import java.util.*;
  */
 public class DupsRemover<T> {
 
+    /**
+     * Removes duplicates from the linked list.
+     * @param origin the given linked list
+     * @return the resulting linked list without duplicates
+     */
     public LinkedList<T> execute_v1(LinkedList<T> origin) {
         Set<T> bufferSet = new LinkedHashSet<>(origin);
         LinkedList<T> result = new LinkedList<>(bufferSet);
